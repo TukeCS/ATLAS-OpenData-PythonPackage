@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tuketest"
+version = "2024.11.19a1"
+license = { file = "LICENSE" }
+description = "A test project for tuke"
+requires-python = ">= 3.8"
+readme = "README.md"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
